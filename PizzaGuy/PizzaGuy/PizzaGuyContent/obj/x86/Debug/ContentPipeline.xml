@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\SpriteSheet.xnb</Output>
-      <Time>2013-12-03T08:07:49.0016-05:00</Time>
+      <Time>2013-12-04T07:31:47.4106-05:00</Time>
     </Item>
     <Item>
       <Source>background.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2013-12-03T08:07:49.0026-05:00</Time>
+      <Time>2013-12-04T07:31:47.4116-05:00</Time>
     </Item>
     <Item>
       <Source>breakout.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\breakout.xnb</Output>
-      <Time>2013-12-03T08:07:49.0036-05:00</Time>
+      <Time>2013-12-04T07:31:47.4126-05:00</Time>
     </Item>
     <Item>
       <Source>Map1.tide</Source>
@@ -35,12 +35,26 @@
       <Processor>TideProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\Map1.xnb</Output>
-      <Time>2013-12-03T08:07:48.9516-05:00</Time>
+      <Time>2013-12-04T07:31:47.4096-05:00</Time>
       <Dependency>
         <Key>breakout.png</Key>
-        <Value>2013-12-03T08:07:49.0036-05:00</Value>
+        <Value>2013-12-04T07:31:47.4126-05:00</Value>
       </Dependency>
       <Request>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\breakout.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Background.tide</Source>
+      <Name>Back</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2013-12-04T07:31:47.4086-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\eahscs\esktop\breakout.png</Key>
+        <Value>2013-12-04T07:31:47.4126-05:00</Value>
+      </Dependency>
+      <Request>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\esktop\breakout.xnb</Request>
     </Item>
     <Item>
       <Source>introMusic.mp3</Source>
@@ -50,21 +64,7 @@
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\introMusic.xnb</Output>
       <Extra>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\introMusic.wma</Extra>
-      <Time>2013-12-03T08:07:49.0056-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Background.tide</Source>
-      <Name>Back</Name>
-      <Importer>TideImporter</Importer>
-      <Processor>TideProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\Back.xnb</Output>
-      <Time>2013-12-03T07:43:45.9536-05:00</Time>
-      <Dependency>
-        <Key>C:\Users\eahscs\esktop\breakout.png</Key>
-        <Value>2013-12-03T07:43:45.9576-05:00</Value>
-      </Dependency>
-      <Request>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\esktop\breakout.xnb</Request>
+      <Time>2013-12-04T07:31:47.4146-05:00</Time>
     </Item>
     <Item>
       <Source>C:\Users\eahscs\esktop\breakout.png</Source>
@@ -73,7 +73,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\PizzaGuy\bin\x86\Debug\Content\esktop\breakout.xnb</Output>
-      <Time>2013-12-03T07:43:45.9576-05:00</Time>
+      <Time>2013-12-04T07:31:47.4126-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -89,7 +89,7 @@
     <Assemblies>
       <Assembly>
         <Key>C:\Users\eahscs\Documents\GitHub\1\PizzaGuy\PizzaGuy\xTile.Pipeline.dll</Key>
-        <Value>2013-12-03T08:07:49.0086-05:00</Value>
+        <Value>2013-12-04T07:31:47.4186-05:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

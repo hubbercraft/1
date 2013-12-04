@@ -2,7 +2,7 @@ Content\SpriteSheet.xnb
 Content\background.xnb
 Content\breakout.xnb
 Content\Map1.xnb
+Content\Back.xnb
 Content\introMusic.xnb
 Content\introMusic.wma
-Content\Back.xnb
 Content\esktop\breakout.xnb
